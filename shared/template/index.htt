@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>{TITLE}</title>
+	<script type="text/javascript" src="js/prototype.js"></script>
+	<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/gallery.css" type="text/css" media="screen" />
+</head>
+<body>
+	<center>
+	<h1>{TITLE}</h1>
+	<div class="hint">Wait for the page to be loaded completely to be able to use slide show feature. It may take a few minutes, depending on the number of images ({COUNT}), their size ({PREVIEWS_SIZE}) and your network speed.</div>
+	<table cellpadding="4" cellspacing="0" id="gallery">
+		{PHOTOS}
+	</table>
+	<h1>Statistics</h1>
+	<table id="summary" cellpadding="4" cellspacing="0">
+		<tr><td>Number of images:</td><td>{COUNT}</td></tr>
+		<tr><td>Total size of the images:</td><td>{SIZE}</td></tr>
+		<tr><td>Total size of thumbnails:</td><td>{PREVIEWS_SIZE}</td></tr>
+		<tr><td>Total size of previews:</td><td>{SLIDES_SIZE}</td></tr>
+		<tr><td>Total size of the gallery:</td><td>{TOTAL_SIZE}</td></tr>
+		<tr><td>Page generation date:</td><td>{UPDATED}</td></tr>
+	</table>
+	<div class="hint">Page built with <a href="http://dev.jsmart.web.id/projects/minitools">Gallerizer 0.4</a><br />© 2012 <a href="http://averkov.web.id">Ilya Averkov &lt;WST&gt;</a></div>
+	</center>
+</body>
+</html>

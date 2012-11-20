@@ -1,0 +1,9 @@
+body {background-color: #fff; padding: 32px;}
+h1 {color: #a00; font-family: "Verdana", "DejaVu Sans", sans-serif; font-size: 20pt; font-weight: normal;}
+img {cursor: pointer; border: 0px none;}
+a {color: #a00;}
+a:hover {color: #c00;}
+#gallery {}
+#summary {border-collapse: collapse; margin-bottom: 16px;}
+#summary td {border: 1px solid #ddbfab; background-color: #fff5ee; color: #333; font-family: "Verdana", "DejaVu Sans", sans-serif; font-size: 10pt;}
+.hint {font-family: "Verdana", "DejaVu Sans", sans-serif; font-size: 10pt; line-height: 16pt; margin-bottom: 32px; background-color: #fff5ee; border-radius: 8px; padding: 8px; color: #333; width: 700px; border: 2px solid #ddbfab;}

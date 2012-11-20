@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/folder.png</file>
+        <file>icons/tick-button.png</file>
+        <file>icons/question-button.png</file>
+        <file>icons/cross-button.png</file>
+        <file>icons/toolbox.png</file>
+        <file>shared/template/index.htt</file>
+        <file>shared/css/gallery.css</file>
+        <file>shared/css/lightbox.css</file>
+        <file>shared/images/bullet.gif</file>
+        <file>shared/images/close.gif</file>
+        <file>shared/images/closelabel.gif</file>
+        <file>shared/images/donate-button.gif</file>
+        <file>shared/images/download-icon.gif</file>
+        <file>shared/images/image-1.jpg</file>
+        <file>shared/images/loading.gif</file>
+        <file>shared/images/nextlabel.gif</file>
+        <file>shared/images/prevlabel.gif</file>
+        <file>shared/images/thumb-1.jpg</file>
+        <file>shared/js/builder.js</file>
+        <file>shared/js/effects.js</file>
+        <file>shared/js/lightbox-web.js</file>
+        <file>shared/js/lightbox.js</file>
+        <file>shared/js/prototype.js</file>
+        <file>shared/js/scriptaculous.js</file>
+    </qresource>
+</RCC>
